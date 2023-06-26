@@ -1,0 +1,205 @@
+html body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #040A0A;
+    height: 100vh;
+
+}
+
+.flower {
+    height: 1344px;
+    width: 1440;
+    position: relative;
+    z-index: auto;
+    background: url("./img/hands.png") no-repeat;
+    /* градиент */
+    padding: 0;
+    margin: 0;
+}
+
+.green-cloud {
+    position: absolute;
+    z-index: 1;
+    width: 358.9px;
+    height: 293.05px;
+    left: 0px;
+    top: 542px;
+
+    background: #43FFD2;
+    filter: blur(73px);
+    transform: rotate(32.83deg);
+}
+
+.purple-cloud {
+    position: absolute;
+    z-index: 1;
+    width: 472.65px;
+    height: 211.05px;
+    left: 888px;
+    top: 453px;
+    background: #7D2253;
+    filter: blur(75px);
+    transform: rotate(32.83deg);
+}
+
+
+
+.flower h1 {
+    font-family: Cormorant;
+    font-size: 200px;
+    font-weight: 300;
+    line-height: 242px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: white;
+}
+
+.flower h2 {
+    font-family: Cormorant;
+    font-size: 200px;
+    font-weight: 300;
+    line-height: 242px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 3;
+    margin: 0;
+}
+
+.img_container {
+    padding: 0px;
+    margin: 0px;
+}
+
+.flower_img {
+    background: url("./img/flower.png") center no-repeat;
+    background-size: cover;
+    height: 975px;
+    width: 1440px;
+    position: absolute;
+    z-index: 2;
+    top: 0%;
+    pointer-events: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-family: Oswald;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin: 0%;
+    margin-left: 175px;
+    padding: 0px;
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.creat {
+    position: relative;
+    z-index: 2;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.button_catalog {
+    position: relative;
+    z-index: 2;
+}
+
+.contact_bar {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+
+.contact_bar media {
+    border: #040A0A;
+    /* background-color: #FFFFFF ;   Тут закончил с рамкой */
+
+}
+
+.contact_bar button {
+    width: 180px;
+    height: 40px;
+    top: 570px;
+    left: 1095px;
+    border-radius: 10px;
+    opacity: 0.4;
+    position: relative;
+}
+
+.visa img{
+    position: absolute;
+    left: 1016px;
+    top: 1099.3px;
+       transform: rotate(2.74deg);
+       
+       
+
+
+}
+
+nav h2 {
+    position: relative;
+    left: 165px;
+    z-index: 2;
+    width: 463px;
+    height: 121px;
+    color: #FFFFFF;
+    font-family: Cormorant;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 121px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 0px;
+margin: 0px;
+}
+.catalog {
+    font-family: Oswald;
+font-size: 200px;
+font-weight: 700;
+line-height: 296px;
+letter-spacing: 0.04em;
+text-align: center;
+color: #0A1717;
+padding: 0px;
+margin: 0px;
+}
+
+/* .bouquet {
+закончил тут
+} */
