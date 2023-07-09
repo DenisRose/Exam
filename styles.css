@@ -215,24 +215,7 @@ h1 {
 
 }
 
-.catalog_text {
-    position: relative;
-    left: 272px;
-    width: 540px;
-    height: 78px;
-    top: 10px;
-    font-family: Oswald;
-    font-size: 20px;
-    font-weight: 200;
-    line-height: 26px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: #FFFFFF;
-    padding: 0px;
 
-
-
-}
 
 .gradient {
     width: 1440px;
@@ -247,7 +230,7 @@ nav h2 {
     position: relative;
     left: 165px;
     z-index: 2;
-    width: 463px;
+    width: 700px;
     height: 121px;
     color: #FFFFFF;
     font-family: Cormorant;
@@ -258,6 +241,18 @@ nav h2 {
     text-align: left;
     padding: 0px;
     margin: 0px;
+}
+
+nav p {
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+
 }
 
 .catalog {
@@ -268,82 +263,339 @@ nav h2 {
     letter-spacing: 0.04em;
     text-align: center;
     color: #0A1717;
-    padding: 0px;
-    margin: 0px;
+    max-width: 100%;
+    height: 900px;
+
 }
-.Catalog_flowers {
-    position: relative;
+
+.catalog_text {
+    position: absolute;
+    z-index: 3;
     width: 540px;
-height: 310px;
-/* top: 1694px;
-left: 165px; */
-border-radius: 20px;
-font-family: Oswald;
-font-size: 18px;
-font-weight: 400;
-line-height: 27px;
-letter-spacing: 0.04em;
-text-align: left;
-color: #FFFFFF;
-background: #00000033;
-padding: 50px;
+    height: 78px;
 
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 0px;
+    top: 1475px;
+    left: 260px;
+}
+
+.Catalog_flowers {
+    width: 540px;
+    height: 310px;
+    top: 1694px;
+    left: 165px;
+    border-radius: 20px;
+    background: #00000033;
+    position: absolute;
+    top: 1740px;
+    left: 163px;
+    z-index: 3;
 
 
 }
+
+.Catalog_flowers h1 {
+    font-family: Oswald;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #43FFD2;
+    margin: 0;
+    padding-left: 50px;
+
+
+}
+
+.Catalog_flowers ul {
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0;
+    padding-left: 50px;
+}
+
+.ready {
+    width: 445px;
+    height: 281px;
+    top: 1475px;
+    left: 830px;
+    border-radius: 20px;
+    background: #00000033;
+    position: absolute;
+    top: 1507px;
+    left: 830px;
+    z-index: 3;
+}
+
+.ready h1 {
+    font-family: Oswald;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #43FFD2;
+    margin: 0;
+    padding-left: 50px;
+}
+
+.ready ul {
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0;
+    padding-left: 50px;
+}
+
+.catalog_dop {
+    width: 540px;
+    height: 264px;
+    top: 1475px;
+    left: 830px;
+    border-radius: 20px;
+    background: #00000033;
+    position: absolute;
+    top: 1822px;
+    left: 738px;
+    z-index: 3;
+}
+
+.catalog_dop h1 {
+    font-family: Oswald;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #43FFD2;
+    margin: 0;
+    padding-left: 50px;
+}
+
+.catalog_dop ul {
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0;
+    padding-left: 50px;
+}
+
+.catalog_view a {
+    position: absolute;
+    font-family: Oswald;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #D978AC;
+    justify-content: right;
+    align-items: right;
+}
+
+.green-cloud-two {
+    position: absolute;
+    z-index: 1;
+    width: 879.44px;
+    height: 211.05px;
+    left: 754px;
+    top: 1609px;
+
+    background: #43FFD2;
+    filter: blur(73px);
+    transform: rotate(32.83deg);
+}
+
+.purple-cloud-two {
+    position: absolute;
+    z-index: 1;
+    width: 707.54px;
+    height: 236.87px;
+    left: 0px;
+    top: 1609px;
+
+    background: #7D2253;
+    ;
+    filter: blur(73px);
+    transform: rotate(32.83deg);
+}
+
 
 .love {
-    position: relative;
+    height: auto;
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    /*   position: relative;
     z-index: 2;
     font-family: Oswald;
     font-size: 20px;
     font-weight: 300;
     line-height: 20px;
     letter-spacing: 0.02em;
-    text-align: center;
+     text-align: center; 
     color: #FFFFFF;
-    padding: 20px;
-    margin: 100px;
+    */
+}
+
+.love h2 {
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+
+
 }
 
 .love_bouquet {
+    position: relative;
+    top: 1000p;
     display: flex;
     justify-content: center;
     gap: 40px;
-
 }
 
-.instruction h1 {
-    position: relative;
-    left: 165px;
+/* .img_pattern img {
     z-index: 2;
-    width: 463px;
-    height: 121px;
-    color: #FFFFFF;
-    font-family: Cormorant;
-    font-size: 100px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    top: 0;
+
+
+} */
+
+.instruction {
+    max-width: 100%;
+    height: 845px;
+    background: url(./img/flowerleft.png) left no-repeat;
+}
+.flowerleft {
+    position: relative;
+}
+
+.steps {
+    display: flex;
+    max-width: 100%;
+    height: 450px;
+    justify-content: right;
+    
+    
+    
+   
+}
+
+.floating-box {
+    width: 270px;
+    height: auto;
+    margin: 10px;
+    
+    
+}
+
+.floating-box p {
+    font-family: Oswald;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 121px;
-    letter-spacing: 0.02em;
+    line-height: 21px;
+    letter-spacing: 0.04em;
     text-align: left;
-    padding: 0px;
-    margin: 0px;
+    color: #FFFFFF;
+}
+
+.floating-box h1 {
+    font-family: Oswald;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #D978AC;
+
 }
 
 .bouquet {
     text-align: right;
-    position: relative;
-    
+    position: absolute;
+    width: 719px;
+    height: 296px;
+    top: 1378px;
+    left: 780px;
+    z-index: 2;
+
+
 }
 
 .flower_text {
     text-align: left;
+    position: absolute;
+    width: 632px;
+    height: 296px;
+    top: 1605px;
+    left: -28px;
+
 }
 
 .dop {
     text-align: right;
-}
+    position: absolute;
+    width: 1622px;
+    height: 200px;
+    top: 1883px;
+    left: 650px;
 
+}
+.special img {
+  
+    text-align: center; /*   нужно по середине */
+}
+.special_text {
+    max-width: 255px;
+    font-family: Oswald;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0.04em;
+text-align: left;
+
+}
+.special_occasion {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.question {
+    background: url(./img/question_img.png);
+}
+.instagram {
+    text-align: left;
+    position: absolute;
+    width: 632px;
+    height: 296px;
+    top: 1605px;
+    left: -28px;
+}
 footer {
     background: #000000;
     width: 1440px;
