@@ -6,8 +6,50 @@ html body {
 body {
     background: #040A0A;
     height: 100vh;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 15;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+}
+
+body h2 {
+    position: relative;
+    left: 165px;
+    z-index: 2;
+    width: 700px;
+    height: 121px;
+    color: #FFFFFF;
+    font-family: Cormorant;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 121px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+body h3 {
+    width: 136px;
+    height: 21px;
+    color: #43FFD2;
+    padding: 0px;
+    margin: 00px;
+    font-family: Oswald;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin-bottom: 10px;
+
+
+
 
 }
+
 
 .flower {
     height: 1344px;
@@ -226,37 +268,15 @@ h1 {
 
 }
 
-nav h2 {
-    position: relative;
-    left: 165px;
-    z-index: 2;
-    width: 700px;
-    height: 121px;
-    color: #FFFFFF;
-    font-family: Cormorant;
-    font-size: 100px;
-    font-weight: 400;
-    line-height: 121px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    padding: 0px;
-    margin: 0px;
-}
-
-nav p {
-    font-family: Oswald;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 30px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #FFFFFF;
-    padding-bottom: 40px;
-
-}
 
 .catalog {
-    font-family: Oswald;
+
+    padding: 80px 0;
+
+}
+
+.catalog-bg {
+
     font-size: 200px;
     font-weight: 700;
     line-height: 296px;
@@ -264,153 +284,133 @@ nav p {
     text-align: center;
     color: #0A1717;
     max-width: 100%;
-    height: 900px;
+}
+
+.bouquet {
+    text-align: right;
+    position: absolute;
+    width: 719px;
+    height: 296px;
+    top: 1445px;
+    left: 780px;
+
+
 
 }
+
+.flower_text {
+    text-align: left;
+    position: absolute;
+    width: 632px;
+    height: 296px;
+    top: 1829px;
+    left: -28px;
+
+}
+
+.dop {
+    text-align: right;
+    position: absolute;
+    width: 1622px;
+    height: 200px;
+    top: 1883px;
+    left: 650px;
+
+}
+
+.catalog-cards {
+    max-width: 1100px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 100px;
+    width: 100%;
+}
+
+.catalog-cards>div {
+    padding: 50px 50px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin: 0;
+}
+
+.catalog h3 {
+    color: #43FFD2;
+}
+
+.catalog ul {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0;
+    margin-left: -20px;
+}
+
 
 .catalog_text {
-    position: absolute;
+    position: relative;
     z-index: 3;
     width: 540px;
-    height: 78px;
-
-    font-family: Oswald;
-    font-size: 20px;
-    font-weight: 200;
-    line-height: 26px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: #FFFFFF;
-    padding: 0px;
-    top: 1475px;
-    left: 260px;
+    transform: translateX(40px);
 }
 
-.Catalog_flowers {
+.catalog_flowers {
     width: 540px;
-    height: 310px;
-    top: 1694px;
-    left: 165px;
+    transform: translateY(-140px);
+    transform: translateY();
     border-radius: 20px;
     background: #00000033;
-    position: absolute;
-    top: 1740px;
-    left: 163px;
+    position: relative;
     z-index: 3;
 
 
 }
 
-.Catalog_flowers h1 {
-    font-family: Oswald;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 44px;
-    letter-spacing: 0.04em;
-    text-align: left;
-    color: #43FFD2;
-    margin: 0;
-    padding-left: 50px;
-
-
-}
-
-.Catalog_flowers ul {
-    font-family: Oswald;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 47px;
-    letter-spacing: 0.04em;
-    text-align: left;
-    color: #FFFFFF;
-    margin: 0;
-    padding-left: 50px;
-}
-
-.ready {
+.catalog_ready {
     width: 445px;
-    height: 281px;
-    top: 1475px;
-    left: 830px;
+    transform: translateX(-60px);
     border-radius: 20px;
     background: #00000033;
-    position: absolute;
-    top: 1507px;
-    left: 830px;
+    position: relative;
     z-index: 3;
 }
 
-.ready h1 {
-    font-family: Oswald;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 44px;
-    letter-spacing: 0.04em;
-    text-align: left;
-    color: #43FFD2;
-    margin: 0;
-    padding-left: 50px;
-}
-
-.ready ul {
-    font-family: Oswald;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 47px;
-    letter-spacing: 0.04em;
-    text-align: left;
-    color: #FFFFFF;
-    margin: 0;
-    padding-left: 50px;
-}
 
 .catalog_dop {
     width: 540px;
-    height: 264px;
-    top: 1475px;
-    left: 830px;
     border-radius: 20px;
+    transform: translateX(-5px);
     background: #00000033;
-    position: absolute;
-    top: 1822px;
-    left: 738px;
+    position: relative;
     z-index: 3;
 }
 
-.catalog_dop h1 {
-    font-family: Oswald;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 44px;
-    letter-spacing: 0.04em;
-    text-align: left;
-    color: #43FFD2;
-    margin: 0;
-    padding-left: 50px;
-}
-
-.catalog_dop ul {
-    font-family: Oswald;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 47px;
-    letter-spacing: 0.04em;
-    text-align: left;
-    color: #FFFFFF;
-    margin: 0;
-    padding-left: 50px;
-}
 
 .catalog_view a {
-    position: absolute;
+    position: relative;
     font-family: Oswald;
     font-size: 12px;
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 0.1em;
     color: #D978AC;
-    justify-content: right;
-    align-items: right;
+    
+    
+    
+    left: 130px;
 }
 
 .green-cloud-two {
@@ -458,13 +458,46 @@ nav p {
     */
 }
 
+.pattern {
+    position: absolute;
+    z-index: -1;
+    top: -271px;
+    right: 0px;
+}
+
 .love h2 {
     max-width: 100%;
     height: auto;
     padding: 0px;
     margin: 0px;
+}
 
+.love p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
 
+.bouquet-one p {
+    margin: 10px;
+    line-height: 0px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.action a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.action {
+    text-align: center;
+    
+    margin-top: 30px;
+    background: transparent;
+    width: 220px;
+    height: 50px;
+    border: 0.5px solid #FFFFFF
 }
 
 .love_bouquet {
@@ -473,6 +506,47 @@ nav p {
     display: flex;
     justify-content: center;
     gap: 40px;
+}
+
+.bouquet-label {
+    background: #D978AC;
+    ;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(10px, -14px);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #040A0A;
+
+}
+
+.bouquet-img {
+    position: relative;
+}
+
+.bouquet-sale {
+    position: relative;
+}
+
+.bouquet-sales {
+    background: #31985A;
+
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(10px, -14px);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #040A0A;
 }
 
 /* .img_pattern img {
@@ -491,6 +565,7 @@ nav p {
     height: 845px;
     background: url(./img/flowerleft.png) left no-repeat;
 }
+
 .flowerleft {
     position: relative;
 }
@@ -500,102 +575,243 @@ nav p {
     max-width: 100%;
     height: 450px;
     justify-content: right;
-    
-    
-    
-   
+
+
+
+
 }
 
 .floating-box {
     width: 270px;
     height: auto;
     margin: 10px;
-    
-    
+
+
 }
 
 .floating-box p {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+
+.floating-box h3 {
+    color: #D978AC;
+}
+
+.special {
+    margin-bottom: 170px;
+}
+
+.special img {
+
+    text-align: center;
+    /*   нужно по середине */
+}
+
+.special_header {
+    display: flex;
+    gap: 223px;
+    margin-bottom: 13px;
+}
+
+.special_text {
+    max-width: 255px;
     font-family: Oswald;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0.04em;
     text-align: left;
-    color: #FFFFFF;
-}
-
-.floating-box h1 {
-    font-family: Oswald;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 44px;
-    letter-spacing: 0.04em;
-    text-align: left;
-    color: #D978AC;
 
 }
 
-.bouquet {
-    text-align: right;
-    position: absolute;
-    width: 719px;
-    height: 296px;
-    top: 1378px;
-    left: 780px;
-    z-index: 2;
-
-
-}
-
-.flower_text {
-    text-align: left;
-    position: absolute;
-    width: 632px;
-    height: 296px;
-    top: 1605px;
-    left: -28px;
-
-}
-
-.dop {
-    text-align: right;
-    position: absolute;
-    width: 1622px;
-    height: 200px;
-    top: 1883px;
-    left: 650px;
-
-}
-.special img {
-  
-    text-align: center; /*   нужно по середине */
-}
-.special_text {
-    max-width: 255px;
-    font-family: Oswald;
-font-size: 14px;
-font-weight: 400;
-line-height: 21px;
-letter-spacing: 0.04em;
-text-align: left;
-
-}
 .special_occasion {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
+
+.special_text ul {
+    padding: 0px;
+
+}
+
+.special_text li {
+    margin-bottom: 20.75px;
+}
+
+
+.special_bouquet {
+    width: 255px;
+    height: 50px;
+    top: 4897px;
+    left: 260px;
+    background: #43FFD2;
+    font-size: 12px;
+
+
+}
+
+.special_pov {
+    height: 121px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 .question {
     background: url(./img/question_img.png);
+    color: #FFFFFF;
+    background: rgb(15 34 34);
 }
+
+.vine_left {}
+
+.vine_left img {
+    position: absolute;
+    width: auto;
+    height: 1037px;
+
+}
+
+.question h2 {
+    margin: 0;
+    font-family: Cormorant;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 121px;
+    letter-spacing: 0.02em;
+}
+
+.question h2 div:last-child {
+    margin-left: 50px;
+}
+
+.question__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.question__descr {
+    max-width: 240px;
+}
+
+.descr-line {
+    padding: 50px 0;
+}
+
+.hor-line {
+    background: #43FFD2;
+    height: 1px;
+    width: 100%;
+}
+
+
+.questions__form_container {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    gap: 126px;
+}
+
+.questions__form_container img {
+    width: 373px;
+    height: 233px;
+
+}
+
+
+.question form {
+    display: flex;
+    flex-direction: column;
+    max-width: 445px;
+    width: 100%;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.question form input {
+    padding: 10px;
+    width: 445px;
+    height: 60px;
+    border: 1px solid #43FFD2;
+    background: transparent;
+}
+
+.input_submit {
+    width: 255px;
+    height: 50px;
+    top: 5637px;
+    left: 830px;
+    background: #43FFD2;
+}
+
+.questions__form_container p {
+    margin: 0;
+    width: 342px;
+    height: 24px;
+    font-family: Roboto Condensed;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.questions__form_container a {
+    color: #D978AC;
+}
+
+
 .instagram {
     text-align: left;
-    position: absolute;
-    width: 632px;
-    height: 296px;
+    max-width: auto;
     top: 1605px;
     left: -28px;
 }
+
+.flower_instagram {
+    position: absolute;
+    top: 5751px;
+    z-index: -1;
+}
+
+.instagram_box {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 145px;
+
+}
+
+.our {
+    margin-top: -86px;
+}
+
+.our_buttom {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    margin-top: 50px;
+    margin-right: -50px;
+}
+
+.flower_instagram {
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 296px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #0A1717;
+    max-width: 100%;
+
+}
+
 footer {
     background: #000000;
     width: 1440px;
