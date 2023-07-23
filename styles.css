@@ -149,6 +149,8 @@ h1 {
     margin: 0%;
     margin-left: 175px;
     padding: 0px;
+    position: relative;
+    z-index: 3;
 
 
 }
@@ -193,7 +195,7 @@ h1 {
     flex-direction: column;
     text-align: right;
     color: #FFFFFF;
-    top: -677px;
+    top: -560px;
     margin-right: 20px;
     gap: 20px;
 }
@@ -669,7 +671,7 @@ h3 {
     background: rgb(15 34 34);
 }
 
-.vine_left {}
+/* .vine_left {} */
 
 .vine_left img {
     position: absolute;
@@ -818,8 +820,9 @@ footer {
     height: 337px;
     display: flex;
     gap: 70px;
-    align-items: center;
+    
     justify-content: center;
+    padding: 20px;
 
 }
 
@@ -829,6 +832,7 @@ footer {
     height: auto;
     padding: 0px;
     margin: 0px;
+    
 }
 
 .footer_catalog p {
@@ -854,5 +858,6 @@ footer {
     text-decoration: none;
     color: #43FFD2;
     line-height: 50px;
+    padding-top: 0px;
 
 }

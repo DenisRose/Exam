@@ -1,0 +1,286 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #040A0A;
+    height: 100vh;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 15;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+}
+
+.flower {
+    height: auto;
+    max-width: 1440;
+    position: relative;
+    z-index: auto;
+    background: black;
+    padding: 0;
+    margin: 0;
+    
+z-index: 3;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-family: Oswald;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin: 0%;
+    margin-left: 175px;
+    padding: 0px;
+
+    width: 1440px;
+    height: 80px;
+
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.path {
+    position: relative;
+    left: 165px;
+    z-index: 3;
+    margin: 30px;
+}
+.path a {
+    
+    color: #FFFFFF;
+}
+
+body h1 {
+    position: relative;
+    left: 250px;
+    z-index: 2;
+    width: 700px;
+    height: 121px;
+    color: #FFFFFF;
+    font-family: Cormorant;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 121px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 0px;
+    margin: 50px;
+}
+
+body h2 {
+    font-family: Cormorant;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    color: #43FFD2;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+body h3 {
+    font-family: Oswald;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.04em;
+
+color:#43FFD2;
+}
+
+body p {
+    font-family: Oswald;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    /* text-align: left; */
+    margin: 0px;
+
+}
+nav {
+    max-width: 1118px;
+    height: auto;
+    margin-left:161px;
+    z-index: 3;
+    position: relative;
+}
+
+.info_bar {
+    width: 1118px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 70px;
+    margin-bottom: 70px;
+    
+}
+.info_block {
+    width: 200px;
+    height: 200px;
+    transform: translateX(-60px);
+    border-radius: 20px;
+    background: #00000033;
+    text-align: center;
+    
+
+}
+
+.question h2 {
+    margin: 0;
+    font-family: Cormorant;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 121px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.question h2 div:last-child {
+    margin-left: 366px;
+}
+
+.question__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.question__descr {
+    max-width: 240px;
+}
+
+.descr-line {
+    padding: 50px 0;
+}
+
+.hor-line {
+    background: #43FFD2;
+    height: 1px;
+    width: 100%;
+}
+
+
+.questions__form_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 168px;
+}
+
+.questions__form_container img {
+    width: 373px;
+    height: 233px;
+
+}
+
+
+.question form {
+    display: flex;
+    flex-direction: column;
+    max-width: 445px;
+    width: 100%;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.question form input {
+    padding: 10px;
+    width: 445px;
+    height: 60px;
+    border: 1px solid #555555;
+    background: transparent;
+}
+
+.input_submit {
+    width: 255px;
+    height: 50px;
+    top: 5637px;
+    left: 830px;
+    background: #43FFD2;
+}
+
+.questions__form_container p {
+    margin: 0;
+    width: 342px;
+    height: 24px;
+    font-family: Roboto Condensed;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.questions__form_container a {
+    color: #D978AC;
+}
+
+/* элипсы фон */
+.yellow-cloud-one {
+    position: absolute;
+    background: #922D2D;
+    filter: blur(73px);
+    transform: rotate(32.83deg);
+    width: 293.5px;
+    height: 235.2px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+.yellow-cloud-two {
+    position: absolute;
+    background: #922D2D;
+    filter: blur(73px);
+    transform: rotate(32.83deg);
+    width: 293.5px;
+    height: 235.2px;
+    z-index: 1;
+    top: 578.96px;
+    left: 447px;
+}
+
+.yellow-cloud-three {
+    position: absolute;
+    background: #922D2D;
+    filter: blur(73px);
+    transform: rotate(32.83deg);
+    width: 293.5px;
+    height: 235.2px;
+    z-index: 1;
+    top: 216px;
+    left: 1044px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+/* цветы фот */
+
+.flowers {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.flowers-two {
+    position: absolute;
+    left: 0px;
+    top: 128px;
+    z-index: 2;
+}

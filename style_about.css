@@ -1,0 +1,253 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #040A0A;
+    height: 100vh;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 15;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+}
+
+.flower {
+    height: auto;
+    max-width: 1440;
+    position: relative;
+    z-index: auto;
+    background: black;
+    padding: 0;
+    margin: 0;
+    position: relative;
+z-index: 3;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-family: Oswald;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin: 0%;
+    margin-left: 175px;
+    padding: 0px;
+
+    width: 1440px;
+    height: 80px;
+
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.path {
+    position: relative;
+    left: 165px;
+    z-index: 3;
+    margin: 30px;
+}
+.path a {
+    
+    color: #FFFFFF;
+}
+
+body h1 {
+    position: relative;
+    left: 250px;
+    z-index: 2;
+    width: 700px;
+    height: 121px;
+    color: #FFFFFF;
+    font-family: Cormorant;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 121px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+body h2 {
+    font-family: Cormorant;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    color: #43FFD2;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+body p {
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    text-align: left;
+
+}
+
+nav {
+    max-width: 1167px;
+    height: auto;
+    margin-left: 400px;
+    z-index: 3;
+    position: relative;
+}
+
+.youth {
+    width: 847px;
+    height: 282px;
+    position: relative;
+    left: 242px;
+    background: #00000033;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.youth p {
+    width: 662px;
+    height: auto;
+
+
+}
+
+.plus ul {
+    width: 847px;
+    height: 282px;
+    position: relative;
+    left: 242px;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.zakaz {
+    width: 695px;
+
+}
+
+.buttom_text {
+    margin-left: 165px;
+    position: relative;
+z-index: 3;
+}
+
+.nature p {
+    width: 1166px;
+    height: auto;
+    font-size: 60px;
+    font-family: Cormorant;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.nature_two p {
+    width: 445px;
+    height: auto;
+    margin-left: 300px;
+    margin-bottom: 300px;
+}
+/* элипсы фон */
+
+.yellow-cloud-one {
+    position: absolute;
+    background: #C8A156;
+    filter: blur(73px);
+    transform: rotate(32.83deg);
+    width: 293.5px;
+    height: 235.2px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+.yellow-cloud-two {
+    position: absolute;
+    background: #C8A156;
+    filter: blur(73px);
+    transform: rotate(32.83deg);
+    width: 293.5px;
+    height: 235.2px;
+    z-index: 1;
+    top: 578.96px;
+    left: 447px;
+}
+
+.yellow-cloud-three {
+    position: absolute;
+    background: #C8A156;
+    filter: blur(73px);
+    transform: rotate(32.83deg);
+    width: 293.5px;
+    height: 235.2px;
+    z-index: 1;
+    top: 358pxpx;
+    left: 800px;
+}
+/* 
+.yellow-cloud-four {
+    position: absolute;
+    background: #C8A156;
+    filter: blur(73px);
+    transform: rotate(32.83deg);
+    width: 293.5px;
+    height: 235.2px;
+    z-index: 1;
+    top: 358pxpx;
+    left: 800px;
+}
+
+.yellow-cloud-five {
+    position: absolute;
+    background: #C8A156;
+    filter: blur(73px);
+    transform: rotate(32.83deg);
+    width: 293.5px;
+    height: 235.2px;
+    z-index: 1;
+    top: 358pxpx;
+    left: 800px;
+} */
+
+/* цветы фон */
+
+.flowers {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.flowers-two {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.flowers-three {
+    position: absolute;
+    right: 0px;
+    top: 1100px;
+    z-index: 2;
+    
+}
