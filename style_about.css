@@ -89,6 +89,24 @@ body h2 {
     margin-top: 100px;
     margin-bottom: 20px;
 }
+body h3 {
+    width: 136px;
+    height: 21px;
+    color: #43FFD2;
+    padding: 0px;
+    margin: 00px;
+    font-family: Oswald;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin-bottom: 10px;
+
+
+
+
+}
 
 body p {
     font-family: Oswald;
