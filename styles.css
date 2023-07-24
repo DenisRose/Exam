@@ -171,11 +171,14 @@ h1 {
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
+    top: 122px;
 
 }
 
 .button_catalog {
     text-align: center;
+    position: relative;
+    top: 150px;
 }
 
 .button_catalog button {
@@ -614,7 +617,7 @@ h3 {
 
 .special_header {
     display: flex;
-    gap: 223px;
+    gap: 270px;
     margin-bottom: 13px;
 }
 
