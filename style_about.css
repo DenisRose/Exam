@@ -366,4 +366,13 @@ footer {
     flex-flow: column wrap;
     height: auto;
 }
+    .menu {
+        flex-direction: column;
+        position: relative;
+        left: 0px;
+        align-items: left;
+        width:  300px;
+        height: auto;
+        margin: 50px;
+    }
 }
