@@ -403,7 +403,9 @@ h3 {
     z-index: 3;
 }
 
-
+.catalog_view {
+    margin: 50px;
+}
 .catalog_view a {
     position: relative;
     font-family: Oswald;
@@ -412,7 +414,7 @@ h3 {
     line-height: 18px;
     letter-spacing: 0.1em;
     color: #D978AC;
-    margin: 50px;
+    
     
     
     
